@@ -1,53 +1,6 @@
-body {
-	background-color: gainsboro;
-}
-
-.container {
-	max-width: 520px;
-	margin-top: 50px;
-	padding-inline: 50px;
-	padding-bottom: 50px;
-	margin-inline: auto;
-	text-align: center;
-	background-color: rgba(145, 183, 237, 0.895);
-	color: black;
-}
-
-.loader {
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 25px;
-	height: 25px;
-	border: 5px solid gray;
-	border-radius: 50%;
-	border-left-color: transparent;
-	animation: loader 1s infinite;
-}
-.searchInput {
-	background-color: rgb(23, 23, 91);
-	color: white;
-	text-align: center;
-	font-size: medium;
-	padding: 10px;
-	border-radius: 5px;
-}
-
-.container_list {
-	margin-top: 10px;
-	background: white;
-	font-size: medium;
-	padding: 10px 150px;
-	border-radius: 5px;
-	border: 2px solid rgb(23, 23, 91);
-}
-
-@keyframes loader {
-	0% {
-		transform: rotate(0deg);
-	}
-	100% {
-		transform: rotate(360deg);
-	}
+.app {
+	width: 500px;
+	margin: 50px auto;
+	border: 2px solid black;
+	border-radius: 10px;
 }
